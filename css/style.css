@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../image/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    position: relative;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.nav-item {
+    padding: 0 8px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 47%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 47%;
+}
+
+.height {
+    min-height: 90vh;
+    align-items: center;
+}
+
+.height h4 {
+
+    color: #008ed6;
+
+    text-transform: uppercase;
+
+    font-size: 16px;
+}
+
+.height h1 {
+
+    color: #FFF;
+
+    font-size: 50px;
+
+    margin: 20px 0;
+}
+
+.height p {
+
+    color: #999999;
+}
+
+.btn-download {
+
+    background: #008ed6;
+
+    color: #fff;
+
+    font-size: 14px;
+
+    padding: 0;
+
+    padding: 13px 20px;
+
+    margin: 50px;
+
+    border: 1px solid transparent;
+
+    margin: 0;
+}
+
+.btn-download:hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #999;
+}
+
+.btn-features {
+
+
+
+    background: transparent;
+
+    color: #fff;
+
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+    border: 1px solid #999;
+
+    padding: 0;
+
+    padding: 13px 20px;
+
+    margin: 50px;
+}
+
+.btn-features:hover {
+    background: #008ed6;
+    color: #fff;
+    border: 1px solid #999;
+}
+
+.phone {
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+}
+
+.product {}
+
+.product h6 {
+
+    color: #008ed6;
+
+    font-size: 16px;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.product h2 {
+
+    font-size: 31px;
+
+    font-weight: 400;
+
+    text-align: center;
+
+    position: relative;
+
+    margin: 20px 0;
+}
+
+
+
+.product h2::before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: -30px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+
+.product h2:hover::before {
+    width: 4%;
+
+}
+
+.product h2::after {
+    content: "";
+    position: absolute;
+    right: 45%;
+    bottom: -30px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+
+.product h2:hover::after {
+    width: 4%;
+
+}
+
+.item {}
+
+.icon {
+
+    border: 1px solid #999999;
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50px;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin: auto;
+}
+
+.icon i {
+
+    margin: auto;
+
+    color: #008ed6;
+}
+
+.item h5 {
+
+    font-size: 21px;
+
+    font-weight: 400;
+
+    margin: 16px 0;
+
+    text-align: center;
+}
+
+.item p {
+
+    color: #999999;
+
+    text-align: center;
+}
+
+.icon-product {}
+
+.icon-product img {}
+
+.icon-product h6 {
+
+    color: #008ed6;
+}
+
+.icon-product h4 {
+    font-weight: 400;
+    margin: 20px 0;
+    position: relative;
+}
+
+.icon-product h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.icon-product h4::after {
+    content: "";
+    position: absolute;
+    right: 79%;
+    bottom: -30px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.icon-product h4:hover::before {
+    width: 10%;
+
+}
+
+.icon-product h4:hover::after {
+    width: 10%;
+
+}
+
+.icon-product p {
+    color: #999999;
+    margin: 59px 0;
+}
+
+
+.icon-list {}
+
+
+.icon-product ul {
+
+    list-style: none;
+}
+
+.icon-product li {
+
+    margin-left: -26px;
+}
+
+.icon-list i {
+    margin-right: 20px;
+    color: #008ed6;
+}
+
+.submit {}
+
+.submit h6 {
+
+    color: #008ed6;
+
+    font-size: 16px;
+}
+
+.submit h4 {
+
+    font-size: 26px;
+
+    font-weight: 400;
+
+    margin: 30px 0 0 0;
+    position: relative;
+}
+
+.submit p {
+
+    color: #999999;
+
+    margin: 69px 0 0 0;
+}
+
+.submit img {}
+
+.submit h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.submit h4::after {
+    content: "";
+    position: absolute;
+    right: 79%;
+    bottom: -30px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.submit h4:hover::before {
+    width: 10%;
+
+}
+
+.submit h4:hover::after {
+    width: 10%;
+
+}
+
+.menu {
+    background-image: url(../image/list.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+.menu h6 {
+
+    color: #008ed6;
+
+    font-size: 16px;
+
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+.menu h1 {
+
+    color: #fff;
+
+    text-align: center;
+
+    margin: 15px 0;
+    position: relative;
+}
+
+.menu h1::before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: -30px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+
+.menu h1::after {
+    content: "";
+    position: absolute;
+    right: 45%;
+    bottom: -30px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+
+.menu h1:hover::before {
+    width: 4%;
+
+}
+
+.menu h1:hover::after {
+    width: 4%;
+
+}
+
+.width {}
+
+.width p {
+
+    font-style: italic;
+
+    color: #fff;
+
+    margin-bottom: 20px;
+}
+
+.client {
+
+    display: flex;
+
+    align-items: center;
+}
+
+.client img {
+    /* width: 100px; */
+    margin-right: 20px;
+}
+
+.client-dec {}
+
+.client-dec h4 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.client-dec h3 {
+    color: #fff;
+    font-size: 18px;
+}
